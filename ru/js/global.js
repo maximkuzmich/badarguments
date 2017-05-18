@@ -23,8 +23,8 @@
             .css('height', '600px');
 
         var e = "<a href='/bg/?view=flipbook' id='view_as_flipbook' "
-            + "class='selected'>Разгледай като книга</a> <a href='/bg/?view=allpages' "
-            + "id='view_all_pages'>Виж всички страници</a>";
+            + "class='selected'>Отображать как книгу</a> <a href='/bg/?view=allpages' "
+            + "id='view_all_pages'>Показать все страницы</a>";
 
         $('#zoom_info')
             .html(e);
@@ -47,9 +47,9 @@
         $('#cover')
             .attr('class', 'cover');
     } else {
-        var e = "<a href='/bg/?view=flipbook' id='view_as_flipbook'>Разгледай като книга</a> "
+        var e = "<a href='/bg/?view=flipbook' id='view_as_flipbook'>Отображать как книгу</a> "
             + "<a href='/bg/?view=allpages' id='view_all_pages' "
-            + "class='selected'>Виж всички страници</a>";
+            + "class='selected'>Показать все страницы</a>";
 
         $('#zoom_info')
             .html(e);
